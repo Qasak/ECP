@@ -3,11 +3,6 @@ package ECC;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
-/**
- * @Author WangJS
- * @Date 2022/3/21 2:43 下午
- * @Version 1.0
- */
 public class RSADemo {
     public static byte[] encode(int max, int pub, byte[] bs) {
         // 公钥加密
